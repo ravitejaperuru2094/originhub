@@ -1,2 +1,5 @@
-this is test file
+
+<<<<<<< HEAD
 in git 
+=======
+>>>>>>> 05875b04b8c1634faaa1e45f38ddb46685e75b2a
