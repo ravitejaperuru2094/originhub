@@ -213,3 +213,106 @@ cat private_key
 ssh -i private_key root@35.223.110.28
 su sailu
 ssh -i private_key sailu@35.223.110.28
+git version
+git init
+git status
+git branch -b branch
+git branch -b branchmaster
+git branch branchmaster
+git checkout branchmaster
+git add .
+git status
+git commit -m "commit"
+git branch --list
+git push branchmaster
+git push 
+git log
+ssh-keygen
+cat id_rsa
+cat /root/.ssh/id_rsa.pub
+git push newrepo git@github.com:SailajaKetham19/newrepo.git
+vi sailu
+git add .
+git add
+ls
+vi sailu
+git init
+yum install git
+git version
+git init
+git status
+git add .
+git commit -m "commit"
+git status
+git remote add First https://github.com/SailajaKetham19/First.git
+git push First master
+git clone https://github.com/SailajaKetham19/First.git
+git push First master
+git clone https://github.com/SailajaKetham19/First.git
+ls
+ls First/
+git status
+git add .
+git commit -m "first commit"
+git config --global --edit
+git commit --amend --reset-author
+git commit -m "first commit"
+git push First master
+git remote -v
+
+git remote set-url origin git@github.com:SailajaKetham19/First.git
+git clone https://github.com/SailajaKetham19/demorepo.git
+git version
+git status
+git add .
+git rm --cached demorepo
+git commit -m "demo commit"
+git push demorepo master
+git pull https://github.com/SailajaKetham19/demorepo.git
+git push demorepo master
+git push --help
+git push-u demorepo master
+git push -u demorepo master
+git remote add demorepo https://github.com/SailajaKetham19/demorepo.git
+git push demorepo master
+git branch
+git checkout master
+git pull demorepo master
+ls
+git add sailu
+git commit -m "add"
+git log
+git init
+git add file sailu
+git commit -m "commited"
+git checkout branchmaster
+git push
+git remote add demorepo https://github.com/SailajaKetham19/demorepo.git
+vi sailu
+git checkout branchmaster
+vi newfile
+git status
+git add newfile
+git commit -m "add"
+git push
+git push demorepo https://github.com/SailajaKetham19/demorepo.git
+git clone https://github.com/SailajaKetham19/demorepo.git
+git clone https://github.com/SailajaKetham19/newrepo.git
+git checkout -b sailaja
+vi newfile
+git add .
+git commit -m "add"
+touch file1
+vi file1
+git add file1
+git commit -m "add"
+git push
+git push https://github.com/SailajaKetham19/newrepo.git
+git remote add sailaja https://github.com/SailajaKetham19/newrepo.git
+git push sailaja
+git push -u origin master
+git push -u sailaja
+git push -u newrepo
+git remote add newrepo https://github.com/SailajaKetham19/newrepo.git
+git push newrepo
+git push --set-upstream newrepo sailaja
