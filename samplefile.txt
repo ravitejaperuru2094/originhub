@@ -1,1 +1,19 @@
+
+{
+
+     public static void main(String [] args) 
+     {
+          int a ,b,c;
+          a=Integer.parseInt(args[0]);   //using Integer wrapper Class to cast object  
+                                           to primitive Datatype Integer.
+
+          b= Integer.parseInt(args[1])  ;
+
+          c= a+b;
+
+
+         System.out.println("The Sum of two number is : "+c);
+     }
+
+   }
 this is sample file to push into git repo.
