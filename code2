@@ -1,0 +1,18 @@
+Add remote origin from existing empty project on server: git remote add origin
+ssh://root@123.123.123.123/path/to/repository/.git
+Remove origin: git remote rm origin
+Show remote branches: git branch -r
+Show all branches: git branch -a
+Compare: git diff origin/master..master
+Push (set default with -u): git push -u origin master
+Push to default: git push origin master
+Fetch: git fetch origin
+Fetch a custom branch: git fetch origin branchname:local_branchname
+Pull: git pull
+Pull specific branch: git pull origin branchname
+Merge fetched commits: git merge origin/master
+Clone to localhost: git clone https://github.com/user/project.git or: git clone
+ssh://user@domain.com/~/dir/.git
+Clone to localhost folder: git clone https://github.com/user/project.git ~/dir/folder
+Clone specific branch to localhost: git clone -b branchname https://github.com/user/project.git
+Delete remote branch (push nothing): git push origin :branchname or: git push origin --delete 
