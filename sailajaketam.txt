@@ -1,0 +1,27 @@
+# An unexpected error has been detected by HotSpot Virtual Machine:
+#
+#  EXCEPTION_STACK_OVERFLOW (0xc00000fd) at pc=0x10001011, pid=296, tid=2940
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6-internal mixed mode, sharing)
+# Problematic frame:
+# C  [App.dll+0x1011]
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000367c0):  JavaThread "main" [_thread_in_native, id=2940]
+:
+Stack: [0x00040000,0x00080000),  sp=0x00041000,  free space=4k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [App.dll+0x1011]
+C  [App.dll+0x1020]
+C  [App.dll+0x1020]
+:
+C  [App.dll+0x1020]
+C  [App.dll+0x1020]
+...<more frames>...
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  Test.foo()V+0
+j  Test.main([Ljava/lang/String;)V+0
+v  ~StubRoutines::call_stub
