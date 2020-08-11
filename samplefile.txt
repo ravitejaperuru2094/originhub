@@ -1,1 +1,6 @@
+You’ve decided that you’re going to work on issue #53 in whatever issue-tracking system your company uses. To create a new branch and switch to it at the same time, you can run the git checkout command with the -b switch:
+
+
+
+
 this is sample file to push into git repo.
